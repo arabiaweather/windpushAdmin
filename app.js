@@ -11,4 +11,4 @@ app.use(express.basicAuth('arabiaweather', 'arabia@weather@windpush'));
 console.log(__dirname + '/adminArea');
 app.use("/adminArea",express.static(__dirname + '/adminArea'));
 
-app.listen(8080);
+app.listen(80);
